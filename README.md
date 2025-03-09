@@ -15,22 +15,28 @@ A C# Windows Forms application developed for a global consulting organization to
 
 * **Multilingual Interface**: Supports English and German localization for login screen and error messages
 * **User Authentication**: Secure login with credentials verification and activity logging
-* **Customer Management**:
+  
+**Customer Management**:
  * Add, update, and delete customer records with validation
  * Tracks customer details including name, address, and contact information
-* **Appointment Scheduling**:
+   
+**Appointment Scheduling**:
  * Schedule appointments linked to customer records
  * Business hour validation (9:00 AM - 5:00 PM ET, Monday-Friday)
  * Prevents overlapping appointments
-* **Calendar View**:
+   
+**Calendar View**:
  * Toggle between daily and monthly views using radio buttons
  * Select specific dates to view appointments
-* **Time Zone Management**:
+   
+**Time Zone Management**:
  * Automatic adjustment of appointment times based on user's time zone
  * Handles daylight saving time considerations
-* **Notification System**:
+   
+**Notification System**:
  * Alerts for upcoming appointments within 15 minutes of login
-* **Reporting Functionality**:
+   
+**Reporting Functionality**:
  * 3 types of reports utilizing lambda expressions:
    * Appointment types by month
    * Schedule for each user
